@@ -43,9 +43,9 @@ Let’s start with the hardest part: the actual questions.
 First, think about what the final web page will look like. 
 It’ll have the 10 ERQ items, each consisting of the item itself, followed by a
 7-point likert scale with 3 labels: at the extremes and in the middle.
-Make a new javascript file in the js directory. This file will eventually contain
-a function that renders the ERQ items by placing them inside the div with id `root`
-in index.html. You can build up the study one component at a time:
+Open up the erq.js file in the js directory. In this file, you will write a function
+that renders the ERQ items by placing them inside the div with id `root`
+in index.html. You can build up the study one piece at a time:
 
 1. Use jQuery to inject a div element containing a placeholder for an ERQ question into the root div
 2. Expand this injected div to include a container element, a question text element, and a likert scale element
